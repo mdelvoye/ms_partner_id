@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		<template id="assets_backend" name="ms_partner_id assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/ms_partner_id/static/src/css/ms_partner_id.css"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
+
+
+
